@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thoth.my.shop.web.admin.dao.TbUserDao">
+
+    <sql id="tbUser">
+      id,
+      username,
+      password,
+      phone,
+      email,
+      created,
+      updated
+    </sql>
+    <sql id="atbUser">
+      a.id,
+          a.username,
+          a.password,
+          a.phone,
+          a.email,
+          a.created,
+          a.updated AS "update"
+    </sql>
+
+    <select id="selectAll" resultType="TbUser">
+        SELECT
+         <include refid="atbUser"/>
+        FROM
+          tb_user AS a
+    </select>
+    <insert id="insert">
+    INSERT INTO tb_user (
+     <include refid="tbUser"/>
+    )
+    VALUES
+      (
+        #{id},
+        #{username},
+        #{password},
+        #{phone},
+        #{email},
+        #{created},
+        #{update}
+      )
+</insert>
+    <delete id="delete">
+    DELETE FROM tb_user WHERE id = #{id}
+</delete>
+
+    <select id="getById" resultType="TbUser">
+    SELECT
+        <include refid="atbUser"/>
+    FROM
+      tb_user AS a
+    WHERE
+      a.id = #{id}
+</select>
+    <update id="update">
+    UPDATE
+      tb_user
+    SET
+      username = #{username},
+      password = #{password},
+      phone = #{phone},
+      email = #{email},
+      created = #{created},
+      updated = #{update}
+    WHERE id = #{id}
+</update>
+
+    <select id="selectByName" resultType="TbUser">
+    SELECT
+        <include refid="atbUser"/>
+    FROM
+      tb_user AS a
+    WHERE
+      a.username LIKE CONCAT ('%', #{username}, '%')
+</select>
+
+    <select id="selectByEmail" resultType="TbUser">
+
+         SELECT
+        <include refid="atbUser"/>
+    FROM
+      tb_user AS a
+    WHERE
+
+        a.email = #{email}
+
+
+    </select>
+
+    <select id="search" resultType="TbUser">
+
+        select
+        <include refid="atbUser"/>
+        from tb_user as a
+        <where>
+
+            <if test=" username != null and username != '' ">
+                a.username like CONCAT('%' , #{username} ,'%')
+            </if>
+            <if test=" email != null and email != '' ">
+               and a.email like CONCAT('%' , #{email} ,'%')
+            </if>
+            <if test=" phone != null and phone != '' ">
+               and  a.phone like CONCAT('%' , #{phone} ,'%')
+            </if>
+
+        </where>
+
+    </select>
+
+
+</mapper>

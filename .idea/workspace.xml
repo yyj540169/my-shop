@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="my-shop-web-admin:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cccc2756-8ba2-4d5f-b841-31e03e8cee32" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="alwaysUpdateSnapshots" value="true" />
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.5.2/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.2\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YZbnElLn4CxJTmbjuMWo3VvYQA" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582791359827" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea\my-shop\my-shop-web-admin\src\main\webapp\static\assets\plugins" />
+      <recent name="E:\idea\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\includes" />
+      <recent name="E:\idea\my-shop\my-shop-web-admin\src\main\java\com\thoth\my\shop\web\admin\web\interceptor" />
+      <recent name="E:\idea\my-shop\my-shop-web-admin\src\main\webapp\static" />
+      <recent name="E:\idea\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.thoth.my.shop.web.admin.service" />
+      <recent name="com.thoth.my.shop.web.admin.service.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myProject\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\tags\sys" />
+      <recent name="E:\idea\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.my-shop">
+    <configuration name="TbServiceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-shop-web-admin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TbServiceTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TbServiceTest.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-shop-web-admin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TbServiceTest" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my-shop [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="my-shop-dependencies [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/my-shop-dependencies" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="my-shop-dependencies [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/my-shop-dependencies" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="my-shop" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="my-shop-web-admin:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_my-shop" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52588" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="my-shop-web-admin:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TbServiceTest.test" />
+      <item itemvalue="JUnit.TbServiceTest.testInsert" />
+      <item itemvalue="Maven.my-shop [clean]" />
+      <item itemvalue="Maven.my-shop-dependencies [clean]" />
+      <item itemvalue="Maven.my-shop-dependencies [install]" />
+      <item itemvalue="Tomcat Server.my-shop" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TbServiceTest.testInsert" />
+        <item itemvalue="JUnit.TbServiceTest.test" />
+        <item itemvalue="Maven.my-shop-dependencies [install]" />
+        <item itemvalue="Maven.my-shop-dependencies [clean]" />
+        <item itemvalue="Maven.my-shop [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.14327486" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cccc2756-8ba2-4d5f-b841-31e03e8cee32" name="Default Changelist" comment="" />
+      <created>1575460176656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575460176656</updated>
+      <workItem from="1575460180858" duration="4406000" />
+      <workItem from="1575506581616" duration="8115000" />
+      <workItem from="1575617261653" duration="12556000" />
+      <workItem from="1575680578636" duration="4238000" />
+      <workItem from="1576051607269" duration="657000" />
+      <workItem from="1581489051939" duration="5892000" />
+      <workItem from="1581562726037" duration="12145000" />
+      <workItem from="1581647081175" duration="8089000" />
+      <workItem from="1581836801343" duration="6114000" />
+      <workItem from="1581848617375" duration="4938000" />
+      <workItem from="1581899424813" duration="122000" />
+      <workItem from="1582448970361" duration="6354000" />
+      <workItem from="1582505291061" duration="136000" />
+      <workItem from="1582785936258" duration="5446000" />
+      <workItem from="1582850274551" duration="745000" />
+      <workItem from="1583153230261" duration="5113000" />
+      <workItem from="1583203047919" duration="6626000" />
+      <workItem from="1583213656320" duration="2450000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TbServiceTest_test - 2019.12.06 at 16h 40m 07s.xml">
+      <configuration name="TbServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TbServiceTest_testInsert - 2019.12.06 at 17h 28m 21s.xml">
+      <configuration name="TbServiceTest.testInsert" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="313" y="119" key="#Inspections" timestamp="1583203345168">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="119" key="#Inspections/0.0.1440.920@0.0.1440.920" timestamp="1583203345168" />
+    <state x="313" y="0" width="814" height="920" key="#Intentions" timestamp="1583203332648">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="0" width="814" height="920" key="#Intentions/0.0.1440.920@0.0.1440.920" timestamp="1583203332648" />
+    <state x="313" y="119" key="#Tomcat_Server" timestamp="1583153726199">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="119" key="#Tomcat_Server/0.0.1440.920@0.0.1440.920" timestamp="1583153726199" />
+    <state x="176" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583153759893">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="176" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1583153759893" />
+    <state x="480" y="148" key="FileChooserDialogImpl" timestamp="1583153723124">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="480" y="148" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1583153723124" />
+    <state width="1171" height="347" key="GridCell.Tab.0.bottom" timestamp="1583213529953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1583213529953" />
+    <state width="1171" height="347" key="GridCell.Tab.0.center" timestamp="1583213529952">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1583213529952" />
+    <state width="1171" height="347" key="GridCell.Tab.0.left" timestamp="1583213529952">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1583213529952" />
+    <state width="1171" height="347" key="GridCell.Tab.0.right" timestamp="1583213529953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1583213529953" />
+    <state width="1171" height="347" key="GridCell.Tab.1.bottom" timestamp="1583213529953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1583213529953" />
+    <state width="1171" height="347" key="GridCell.Tab.1.center" timestamp="1583213529953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1583213529953" />
+    <state width="1171" height="347" key="GridCell.Tab.1.left" timestamp="1583213529953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1583213529953" />
+    <state width="1171" height="347" key="GridCell.Tab.1.right" timestamp="1583213529953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1583213529953" />
+    <state width="1171" height="347" key="GridCell.Tab.2.bottom" timestamp="1583213529953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.2.bottom/0.0.1440.920@0.0.1440.920" timestamp="1583213529953" />
+    <state width="1171" height="347" key="GridCell.Tab.2.center" timestamp="1583213529953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.2.center/0.0.1440.920@0.0.1440.920" timestamp="1583213529953" />
+    <state width="1171" height="347" key="GridCell.Tab.2.left" timestamp="1583213529953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.2.left/0.0.1440.920@0.0.1440.920" timestamp="1583213529953" />
+    <state width="1171" height="347" key="GridCell.Tab.2.right" timestamp="1583213529953">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.2.right/0.0.1440.920@0.0.1440.920" timestamp="1583213529953" />
+    <state width="1171" height="347" key="GridCell.Tab.3.bottom" timestamp="1583207858905">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.3.bottom/0.0.1440.920@0.0.1440.920" timestamp="1583207858905" />
+    <state width="1171" height="347" key="GridCell.Tab.3.center" timestamp="1583207858904">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.3.center/0.0.1440.920@0.0.1440.920" timestamp="1583207858904" />
+    <state width="1171" height="347" key="GridCell.Tab.3.left" timestamp="1583207858904">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.3.left/0.0.1440.920@0.0.1440.920" timestamp="1583207858904" />
+    <state width="1171" height="347" key="GridCell.Tab.3.right" timestamp="1583207858904">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1171" height="347" key="GridCell.Tab.3.right/0.0.1440.920@0.0.1440.920" timestamp="1583207858904" />
+    <state x="157" y="205" key="SettingsEditor" timestamp="1583158291542">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="157" y="205" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1583158291542" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1583205090522">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1583205090522" />
+  </component>
+</project>
