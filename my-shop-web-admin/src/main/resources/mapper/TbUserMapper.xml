@@ -23,16 +23,16 @@
 
     <select id="selectAll" resultType="TbUser">
         SELECT
-         <include refid="atbUser"/>
+        <include refid="atbUser"/>
         FROM
-          tb_user AS a
+        tb_user AS a
     </select>
     <insert id="insert">
-    INSERT INTO tb_user (
-     <include refid="tbUser"/>
-    )
-    VALUES
-      (
+        INSERT INTO tb_user (
+        <include refid="tbUser"/>
+        )
+        VALUES
+        (
         #{id},
         #{username},
         #{password},
@@ -40,20 +40,20 @@
         #{email},
         #{created},
         #{update}
-      )
-</insert>
+        )
+    </insert>
     <delete id="delete">
     DELETE FROM tb_user WHERE id = #{id}
 </delete>
 
     <select id="getById" resultType="TbUser">
-    SELECT
+        SELECT
         <include refid="atbUser"/>
-    FROM
-      tb_user AS a
-    WHERE
-      a.id = #{id}
-</select>
+        FROM
+        tb_user AS a
+        WHERE
+        a.id = #{id}
+    </select>
     <update id="update">
     UPDATE
       tb_user
@@ -68,21 +68,21 @@
 </update>
 
     <select id="selectByName" resultType="TbUser">
-    SELECT
+        SELECT
         <include refid="atbUser"/>
-    FROM
-      tb_user AS a
-    WHERE
-      a.username LIKE CONCAT ('%', #{username}, '%')
-</select>
+        FROM
+        tb_user AS a
+        WHERE
+        a.username LIKE CONCAT ('%', #{username}, '%')
+    </select>
 
     <select id="selectByEmail" resultType="TbUser">
 
-         SELECT
+        SELECT
         <include refid="atbUser"/>
-    FROM
-      tb_user AS a
-    WHERE
+        FROM
+        tb_user AS a
+        WHERE
 
         a.email = #{email}
 
@@ -100,10 +100,10 @@
                 a.username like CONCAT('%' , #{username} ,'%')
             </if>
             <if test=" email != null and email != '' ">
-               and a.email like CONCAT('%' , #{email} ,'%')
+                and a.email like CONCAT('%' , #{email} ,'%')
             </if>
             <if test=" phone != null and phone != '' ">
-               and  a.phone like CONCAT('%' , #{phone} ,'%')
+                and a.phone like CONCAT('%' , #{phone} ,'%')
             </if>
 
         </where>

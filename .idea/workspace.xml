@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cccc2756-8ba2-4d5f-b841-31e03e8cee32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/thoth/my/shop/web/admin/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/thoth/my/shop/web/admin/web/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,8 +333,16 @@
       <workItem from="1583153230261" duration="5113000" />
       <workItem from="1583203047919" duration="6626000" />
       <workItem from="1583213656320" duration="2450000" />
-      <workItem from="1583303324954" duration="91000" />
+      <workItem from="1583303324954" duration="664000" />
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1583303437258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583303437258</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -347,15 +356,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="119" key="#Inspections" timestamp="1583203345168">
+    <state x="313" y="119" key="#Inspections" timestamp="1583304009355">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="119" key="#Inspections/0.0.1440.920@0.0.1440.920" timestamp="1583203345168" />
-    <state x="313" y="0" width="814" height="920" key="#Intentions" timestamp="1583203332648">
+    <state x="313" y="119" key="#Inspections/0.0.1440.920@0.0.1440.920" timestamp="1583304009355" />
+    <state x="313" y="0" width="814" height="920" key="#Intentions" timestamp="1583303988282">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="0" width="814" height="920" key="#Intentions/0.0.1440.920@0.0.1440.920" timestamp="1583203332648" />
+    <state x="313" y="0" width="814" height="920" key="#Intentions/0.0.1440.920@0.0.1440.920" timestamp="1583303988282" />
     <state x="313" y="119" key="#Tomcat_Server" timestamp="1583153726199">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -364,6 +377,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="176" y="116" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1583153759893" />
+    <state x="286" y="52" key="CommitChangelistDialog2" timestamp="1583303436594">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="286" y="52" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1583303436594" />
     <state x="480" y="148" key="FileChooserDialogImpl" timestamp="1583153723124">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -436,6 +453,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="157" y="205" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1583158291542" />
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2" timestamp="1583303462771">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="194" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1583303462771" />
     <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1583205090522">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
