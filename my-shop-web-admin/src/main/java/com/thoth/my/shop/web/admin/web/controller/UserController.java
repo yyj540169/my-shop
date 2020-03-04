@@ -107,6 +107,7 @@ public class UserController {
     @RequestMapping(value = "delete",method = RequestMethod.POST)
     public BaseResult deleteAll(String ids){
         BaseResult baseResult =  BaseResult.success();
+        List<TbUser> tbUsers = userService.selectAll();
         return baseResult;
     }
 
